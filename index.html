@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading"><h2 style="color: white; padding-bottom: 10px; font-size: 30px;">Weather App</h2></div>
+        <div class="card">
+            <form class="f">
+            <div class="searchbox" >
+                <input type="text" placeholder="Enter city Name" style="width: 30%; height: 20px;padding-left: 5px;" class="inp">
+                
+                <i class="s-icon fa-solid fa-magnifying-glass fa-xl" style="color: #FFD43B; float: right; padding-top: 14px;"  ></i>
+            </div>
+        </form>
+            <!-- //current location div -->
+            <div class="content" style="color: black;">
+                <h4 style="text-align: center; color: white; font-weight: 100; margin-bottom: 5px;">Your Location:    <i class="fa-solid fa-location-dot fa-flip"></i> <span class="live-loc"></span></h4>
+                
+            <div class="yourloca">
+                <div class="x">
+                    <h4 style="text-align:  center;">Temperature<i class="fa-solid fa-temperature-three-quarters fa-xl fa-shake " style="position: relative; top:5px; color: #ce272f;"></i></h4>
+                    <div class="val" style="padding-top: 15px; text-align: center; color: red;"></div>
+                </div>  
+                <div class="x">
+                    <h4 style="text-align:center;">Humidity<i class="fa-solid fa-droplet fa-xl fa-bounce"style="position: relative; top:2px; font-size :18px; color:blue;"></i></h4>
+                    <div class="val" style="padding-top: 15px; text-align: center; color: blue;"></div>
+                </div>
+                <div class="x">
+                  <h4 style="text-align:center;">Wind Speed<i class="fa-solid fa-wind fa-fade " style="position: relative; top:2px; left:3px;"></i></h4>
+                  <div class="val" style="padding-top: 15px; text-align: center; color: black;"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div style="color: rgb(48, 38, 244); font-weight: 100   ;">Search Result For:</div>
+        <div class="xyz" style="color: rgb(0, 0, 0); font-weight:800; font-family:sans-serif; background-color: orange;"></div>
+            <div class="threebox">
+                <div class="b">
+                    <div class="b1" style="height: 20px; "><h5 style="text-align: left; font-size: 15px;">Temperature<i class="fa-solid fa-temperature-three-quarters fa-xl fa-shake " style="position: relative; top:5px; color: #ce272f;"></i></h5></div>
+                    <div class="b2" style="padding-top: 15px; text-align: center; color: red;"></div>
+                    
+                </div>
+                <div class="b">
+                    <div class="b1" style="height: 20px;"><h5 style="text-align: center; font-size: 16px;">Humidity<i class="fa-solid fa-droplet fa-xl fa-bounce"style="position: relative; top:2px; font-size :18px; color:blue;"></i></h5></div>
+                    <div class="b2" style="padding-top: 15px; text-align: center; color: blue;"></div>
+                </div>
+                <div class="b">
+                    <div class="b1" style="height: 20px;"><h5 style="text-align: left; font-size: 16px;">Wind Speed<i class="fa-solid fa-wind fa-fade " style="position: relative; top:2px; left:3px;"></i></h5></div>
+                    <div class="b2" style="padding-top: 15px; text-align: center; "></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

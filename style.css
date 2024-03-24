@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    /* height: 99vh; */
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid white ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    /* background-image: url('https://i.pinimg.com/736x/4a/5d/8a/4a5d8aa5f496a202e3aed694e573589c.jpg'); */
+    /* background-image: url('https://i.makeagif.com/media/1-04-2021/8XH2EB.gif'); */
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/ebc4db2235034.560a96356930d.gif');
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    /* padding-top: 80px; */
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+      height: 124vh;
+    }
+  }
+.card{
+    /* height: 80vh; */
+    height: fit-content;
+    width: 60vw;
+    border: 2px solid white;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(12px);
+}
+.searchbox{
+    height: 40px;
+    width: 100%;
+    /* border: 2px solid white;  */
+    box-sizing: border-box;
+    padding: 10px;
+}
+.content{
+    /* height: 150px; */
+
+    width: 100%;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+}
+.threebox{
+    box-sizing: border-box;
+    padding-top: 20px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly ;
+    
+}
+.b{
+    height: 100px;
+    width: 120px;
+    border: 2px solid white;
+    border-radius: 6px;
+    border-end-start-radius: 22px;
+    /* box-sizing: content-box; */
+    margin-bottom: 12px;
+    background-color: white;
+   /* border: 1px solid red; */
+    
+}
+.s-icon:hover{
+    scale: 1.2;
+    transition: 0.2s;
+}
+
+.yourloca{
+    width: 70%;
+    height: fit-content;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+.x{
+   
+    width: 120px;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 1px;
+    margin-right: 3px;
+    margin-bottom: 10px;
+    border-end-start-radius: 22px;
+}
+
+.xyz{
+    height: 20px;
+    width:fit-content;
+ 
+}
+.inp{
+    border-radius: 8px;
+    border: none;
+    padding-bottom: 2px;
+}
